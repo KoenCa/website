@@ -22,15 +22,13 @@
               font-bold
               tracking-tighter
               text-blue-600
-              transition
+              transition-all
               duration-500
-              ease-in-out
-              transform
-              tracking-relaxed
+              hover:tracking-normal
               lg:pr-8
             "
           >
-            wickedblocks
+            Koen Castermans
           </a>
           <button
             class="rounded-lg md:hidden focus:outline-none focus:shadow-outline"
@@ -57,7 +55,7 @@
           :class="{ flex: open, hidden: !open }"
           class="flex-col flex-grow md:flex md:justify-end md:flex-row"
         >
-          <ul class="list-none md:items-center">
+          <ul class="list-none flex flex-col md:flex-row">
             <li>
               <a
                 href="#"
@@ -74,7 +72,7 @@
                   hover:text-blue-500
                 "
               >
-                All templates
+                Home
               </a>
             </li>
             <li>
@@ -93,26 +91,7 @@
                   hover:text-blue-500
                 "
               >
-                FAQ
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.wickedtemplates.com/"
-                class="
-                  px-2
-                  lg:px-6
-                  py-6
-                  text-sm
-                  border-b-2 border-transparent
-                  hover:border-blue-600
-                  leading-[22px]
-                  md:px-3
-                  text-gray-500
-                  hover:text-blue-500
-                "
-              >
-                Free <span class="hidden lg:inline">Templates </span>
+                Blog
               </a>
             </li>
           </ul>
